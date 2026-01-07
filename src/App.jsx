@@ -1,6 +1,7 @@
 import React from 'react'
 import HelloWorld from './components/Hello'
 import Greetings from './components/Class';
+import Render from './components/Render';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <HelloWorld />
       <Greetings  
       name="alen"/>
+      <Render/>
     </div>
   )
 }
