@@ -5,6 +5,7 @@ import Render from './components/Render';
 import Renderr from './components/Renderr';
 import Alert from './components/Alert';
 import Clock from './components/Date';
+import Props from './components/Props';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Renderr/>
       <Alert/>
       <Clock/> 
+      <Props/>
     </div>
   )
 }
