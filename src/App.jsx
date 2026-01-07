@@ -4,6 +4,7 @@ import Greetings from './components/Class';
 import Render from './components/Render';
 import Renderr from './components/Renderr';
 import Alert from './components/Alert';
+import Clock from './components/Date';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Render/>
       <Renderr/>
       <Alert/>
+      <Clock/> 
     </div>
   )
 }
